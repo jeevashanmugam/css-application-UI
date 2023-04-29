@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #80808094;
+    border-radius: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-sec {
+    width: 55%;
+    padding: 20px;
+}
+
+.img-sec img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-title ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 20px 0;
+    display: flex;
+    gap: 30px;
+}
+
+.underline {
+    border-bottom: 2px solid #abaaaa6b;
+}
+
+.card-title ul a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-title ul a:hover {
+    border-bottom: 2px solid #4844446e;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: #0000ff;
+}
+
+.card-sec {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    padding: 10px 0px;
+}
+
+.circle-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card-head:last-child {
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+.icon i {
+    color: #FFEB3B;
+    padding: 10px 1px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.card-sec .icon .gray-star {
+    color: #80808091;
+}
+
+/* RIGHT SECTION */
+
+
+.right-sec {
+    width: 40%;
+    padding: 20px;
+}
+
+.right-sec .icon i:last-child {
+    color: #80808091;
+}
+
+.right-sec .ui-txt {
+    font-size: 30px;
+    padding: 10px 0
+}
+
+.right-sec p {
+    color: #80808091;
+}
+
+.right-sec .txt-3 {
+    padding: 25px 0px;
+}
+
+.right-sec .btn {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.right-sec .btn button:first-child {
+    width: 210px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #746de7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-sec .btn button:first-child:hover {
+    background-color: #4F46E5;
+}
+
+.right-sec .btn button:last-child {
+    width: 210px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0000ffe0;
+    background-color: #EEF2FF;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-sec .btn button:last-child:hover {
+    background-color: #6abfe6a1;
+}
+
+.list-text h1 {
+    padding: 20px 0px;
+}
+
+.right-sec ul {
+    padding: 0px 30px;
+    color: #787777;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+
+.licence-txt h1 {
+    padding: 15px 0;
+}
+
+.licence-txt p {
+    padding-bottom: 40px;
+}
+
+.licence-txt p a {
+    text-decoration: none;
+    color: #625ad0;
+}
+
+.licence-txt p a:hover {
+    color: #4F46E5;
+}
+
+.footer-sec h1 {
+    margin-top: 30px;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.footer-sec .socialmedia a {
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+    display: inline-block;
+}
+
+.footer-sec .socialmedia .social-icon a {
+    margin-left: 20px;
+}
